@@ -1,9 +1,104 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 YaBrowser/24.7.0.0 Safari/537.36" version="24.7.12">
   <diagram name="Страница — 1" id="OVvDYNBczXTHuO6e1KQd">
-    <mxGraphModel>
+    <mxGraphModel dx="1066" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="CI3WZwhwP2adsdz1gY7y-22" value="Администрация" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="200" y="30" width="100" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="CI3WZwhwP2adsdz1gY7y-29" value="Заявиться на гонку" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="CI3WZwhwP2adsdz1gY7y-22">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="29.32352941176464" y="150" as="sourcePoint" />
+            <mxPoint x="220" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CI3WZwhwP2adsdz1gY7y-30" value="Команда заявлена" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="CI3WZwhwP2adsdz1gY7y-22" target="CI3WZwhwP2adsdz1gY7y-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="270" as="sourcePoint" />
+            <mxPoint x="50" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CI3WZwhwP2adsdz1gY7y-31" value="Узнать результаты" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="29.666666666666515" y="360" as="sourcePoint" />
+            <mxPoint x="249.5" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CI3WZwhwP2adsdz1gY7y-32" value="Объявить результаты" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="249.5" y="430" as="sourcePoint" />
+            <mxPoint x="29.666666666666515" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CI3WZwhwP2adsdz1gY7y-33" value="Объявить стартовый номер" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="249.5" y="300" as="sourcePoint" />
+            <mxPoint x="29.32352941176464" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CI3WZwhwP2adsdz1gY7y-34" value="Узнать стартовый номер" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="29.666666666666515" y="240" as="sourcePoint" />
+            <mxPoint x="249.5" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CI3WZwhwP2adsdz1gY7y-35" value="Система времени" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="410" y="30" width="100" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="CI3WZwhwP2adsdz1gY7y-36" value="Система награждения" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="600" y="30" width="100" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="CI3WZwhwP2adsdz1gY7y-37" value="Запросить время" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="249.32352941176464" y="150" as="sourcePoint" />
+            <mxPoint x="460" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CI3WZwhwP2adsdz1gY7y-40" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="20" y="30" width="20" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="CI3WZwhwP2adsdz1gY7y-43" value="Сообщить время" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="459.5" y="190" as="sourcePoint" />
+            <mxPoint x="249.32352941176464" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CI3WZwhwP2adsdz1gY7y-52" value="Проверка штрафов" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="455" y="150" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="535" y="150" />
+              <mxPoint x="535" y="190" />
+            </Array>
+            <mxPoint x="460" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CI3WZwhwP2adsdz1gY7y-55" value="Сообщить время участников" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="459.6666666666665" y="230" as="sourcePoint" />
+            <mxPoint x="649.5" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CI3WZwhwP2adsdz1gY7y-56" value="Передать место гонщика в таблице" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="290" as="sourcePoint" />
+            <mxPoint x="460.00352941176465" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CI3WZwhwP2adsdz1gY7y-58" value="Сравнить время всех гонщиков" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="CI3WZwhwP2adsdz1gY7y-36" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650.2222222222222" y="230.0000000000001" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="720" y="230" />
+              <mxPoint x="720" y="290" />
+            </Array>
+            <mxPoint x="650.1666666666666" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
